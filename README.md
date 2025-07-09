@@ -1,20 +1,29 @@
-# **AUTO-TRIVIA**
+# 📬 AI Trivia Telegram Bot
 
-A simple Python script that will send a random trivia in my telegram using OpenRouter's DeepSeek API and Telegram Bot.
+This Python script generates **random trivia** using an AI model via [OpenRouter](https://openrouter.ai), then sends it as a message to a Telegram chat using the Telegram Bot API.
 
-### **Usage**
-Run main.py script
+---
 
-### **Dependencies**
-- openai - For API communication
-- python-dotenv - For environment variable management
+## 💡 What It Does
 
-### **API**
-This project uses:
-- OpenRouter as the API gateway
-- DeepSeek R1 model (free tier)
-- Telegram API
+- Connects to an OpenRouter-compatible AI model (`deepseek-r1-0528:free`)  
+- Prompts it to return a structured trivia fact (Topic, Fact, Explanation)  
+- Sends the result to a Telegram channel or user using your bot token  
 
-**License**
-This project is open source and available under the MIT License.
+---
 
+## 🛠️ Requirements
+
+- Python
+- Telegram Bot Token
+- OpenRouter API Key and Base URL
+- Telegram Chat ID (for where the trivia will be sent)
+
+---
+
+## 📦 Installation
+
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/yourusername/ai-trivia-telegram-bot.git
+   cd ai-trivia-telegram-bot
