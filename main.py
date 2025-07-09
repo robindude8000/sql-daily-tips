@@ -23,3 +23,4 @@ completion = client.chat.completions.create(
 trivia_content = completion.choices[0].message.content
 
 print(trivia_content)
+
