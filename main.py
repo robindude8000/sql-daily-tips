@@ -20,20 +20,18 @@ try:
         messages=[
             {
                 "role": "user",
-                "content": """Give me basic to intermediate grammar tip or rule that is useful for improving my spoken English. Use the following structure: 
+                "content": """
+                
+                Ignore telegram formatting instructions.
+                Give me basic to intermediate grammar tip or rule that is useful for improving my spoken English. Use the following structure and keep the content short and concise: 
                 
                 Grammar Topic:
                 [short title of the grammar point]
 
                 ================
-
-                The Rule or Tip:  
-                [short explanation of the grammar rule or tip in one paragraph]
-
-                ================
                 
                 Example & Explanation:  
-                [Give 1 or 2 example sentences. Explain briefly why they are correct or how the rule is applied]"""
+                [Give 1 or 2 example sentences. Explain briefly how the rule is applied]"""
             }
         ]
     )
