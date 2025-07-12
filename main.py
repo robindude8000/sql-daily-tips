@@ -4,7 +4,7 @@ import requests
 from dotenv import load_dotenv
 
 
-try: 
+try:
     # Load environment variables from .env file
     load_dotenv()
 
@@ -19,17 +19,21 @@ try:
         model="deepseek/deepseek-r1-0528:free",
         messages=[
             {
-            "role": "user",
-            "content": """Give me an out of the blue, surprising trivia fact formatted with the following structure: 
-                Trivia Topic:
-                content
-                ================
-
-                The Fact:
-                content
+                "role": "user",
+                "content": """Give me an out-of-the-blue grammar tip or rule that is useful for improving written and spoken English. Use the following structure: 
+                
+                Grammar Topic:
+                [short title of the grammar point]
 
                 ================
-                Explanation: Use simple to intermediate vocabulary. Don't make it too long, just enough to keep the reader engaged."""
+
+                The Rule or Tip:  
+                [short explanation of the grammar rule or tip in one paragraph]
+
+                ================
+                
+                Example & Explanation:  
+                [Give 1 or 2 example sentences. Explain briefly why they are correct or how the rule is applied. Use simple to intermediate vocabulary.]"""
             }
         ]
     )
@@ -39,7 +43,6 @@ try:
     # Telegram bot info
     TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
     CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
-
 
     # Send to telegram
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
