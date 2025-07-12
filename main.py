@@ -20,7 +20,7 @@ try:
         messages=[
             {
                 "role": "user",
-                "content": """Give me an out-of-the-blue grammar tip or rule that is useful for improving written and spoken English. Use the following structure: 
+                "content": """Give me basic to intermediate grammar tip or rule that is useful for improving my spoken English. Use the following structure: 
                 
                 Grammar Topic:
                 [short title of the grammar point]
@@ -33,7 +33,7 @@ try:
                 ================
                 
                 Example & Explanation:  
-                [Give 1 or 2 example sentences. Explain briefly why they are correct or how the rule is applied. Use simple to intermediate vocabulary.]"""
+                [Give 1 or 2 example sentences. Explain briefly why they are correct or how the rule is applied]"""
             }
         ]
     )
