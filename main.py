@@ -22,16 +22,16 @@ try:
                 "role": "user",
                 "content": """
                 
-                Ignore telegram formatting instructions.
-                Give me basic to intermediate grammar tip or rule that is useful for improving my spoken English. Use the following structure and keep the content short and concise: 
+                You are an expert in SQL optimization and refactoring using SQL Server (SSMS). Provide 1 random best practice and tip that includes specific scripts or process for improving SQL performance.
+                Use the following structure:
                 
-                Grammar Topic:
-                [short title of the grammar point]
+                SQL Tip:
+                [Provide a specific SQL script or process that optimizes or refactors SQL queries, focusing on SQL Server.]
 
                 ================
                 
-                Example & Explanation:  
-                [Give 1 or 2 example sentences. Explain briefly how the rule is applied]"""
+                Explanation:  
+                [Offer 1 to 2 practical examples of how the provided script or process improves performance]"""
             }
         ]
     )

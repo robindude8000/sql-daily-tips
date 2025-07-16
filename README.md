@@ -1,6 +1,6 @@
-# 📬 English Tutor Telegram Bot
+# 📬 SQL Daily Tips Telegram Bot
 
-This Python script generates **English Grammar Tips** using an AI model via [OpenRouter](https://openrouter.ai), then sends it as a message to a Telegram chat using the Telegram Bot API.
+This Python script generates **SQL Optimization Tips** using an AI model via [OpenRouter](https://openrouter.ai), then sends it as a message to a Telegram chat using the Telegram Bot API.
 I automate the script using [https://www.pythonanywhere.com], free account only so I'm only limited to 1 scheduled task per day.
 
 ---
